@@ -1,0 +1,76 @@
+@import "_vars.scss";
+@import "_libs.scss";
+@import "_fonts.scss";
+@import "global.scss";
+
+.header{
+  text-align: right;
+
+}
+.header__slider-item {
+  &.slider-item{
+    height: 100vh;
+    background-image: url("../img/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+}
+.slider-item_info{
+  position: absolute;
+  right: 5rem;
+  bottom: 7.25rem;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.slider-item_info-subtitle{
+  margin-bottom: .31rem;
+}
+
+.slider-item_info-subtext{
+  margin-bottom: .44rem;
+}
+.slider-item_info-title{
+  font-weight: 800;
+  font-size: 5rem;
+  margin-bottom: 3rem;
+}
+
+.slider-item_info-text{
+  font-weight: 800;
+  font-size: 2.5rem;
+  line-height: 5.375rem;
+}
+
+.slider-arrows{
+  position: absolute;
+  top: 2.5rem; right: 5rem;
+  cursor: pointer;
+  z-index: 4;
+}
+
+.slider-arrows-left {
+  right: 7.8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import "_media.scss";
