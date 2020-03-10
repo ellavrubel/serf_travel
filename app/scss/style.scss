@@ -5,6 +5,8 @@
 
 .header{
   text-align: right;
+  position: relative;
+  height: 100vh;
 
 }
 .header__slider-item {
@@ -55,6 +57,66 @@
 .slider-arrows-left {
   right: 7.8rem;
 }
+
+.slider-dots{
+  position: absolute;
+  right: 3.125rem;
+  bottom: 2.1rem;
+  max-width: 57.5rem;
+  width: 100%;
+  color: #FFFFFF;
+
+  .slick-current{
+    .dots-box{
+      border-top: .4rem solid $green;
+    }
+  }
+}
+
+.dots-box{
+  width: 12.5rem;
+  display: flex;
+  justify-content: space-between;
+  height: 1.8rem;
+  align-items: center;
+  border-top: solid .4rem #fff;
+  padding-top: .375rem;
+
+    .dots-box_number{
+        font-weight: 800;
+        font-size: 1.5rem;
+        line-height: 2.1rem;
+  }
+
+    .dots-box_name{
+        font-weight: 300;
+        line-height: 1.18rem;
+  }
+}
+.header__title{
+  font-weight: 800;
+  font-size: 200px;
+  line-height: 156px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  opacity: 0.07;
+  max-width: 28.19rem;
+  text-align: left;
+  position: absolute;
+  top: 0;left: 0;
+  z-index: 4;
+}
+
+.header__aside{
+  position: absolute;
+  top: 0; left: 0;
+  z-index: 5;
+  border-right: 1px solid rgba(#fff, .25);
+  text-align: left;
+  max-width: 10.5rem;
+}
+
+
 
 
 
