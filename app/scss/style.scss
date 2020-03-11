@@ -18,14 +18,12 @@
     background-position: center;
     position: relative;
   }
-
 }
+
 .slider-item_info{
   position: absolute;
   right: 5rem;
   bottom: 7.25rem;
-  color: #FFFFFF;
-  text-transform: uppercase;
 }
 
 .slider-item_info-subtitle{
@@ -64,11 +62,10 @@
   bottom: 2.1rem;
   max-width: 57.5rem;
   width: 100%;
-  color: #FFFFFF;
 
   .slick-current{
     .dots-box{
-      border-top: .4rem solid $green;
+      border-top: .4rem solid $reen;
     }
   }
 }
@@ -91,14 +88,13 @@
     .dots-box_name{
         font-weight: 300;
         line-height: 1.18rem;
+      text-transform: capitalize;
   }
 }
 .header__title{
   font-weight: 800;
   font-size: 12.5rem;
   line-height: 9.75rem;
-  text-transform: uppercase;
-  color: #FFFFFF;
   opacity: 0.07;
   max-width: 28.19rem;
   text-align: left;
@@ -114,7 +110,7 @@
   border-right: 1px solid rgba(#fff, .25);
   height: 100vh;
   text-align: center;
-  color: #fff;
+
 }
 
 .menu__list{
@@ -126,8 +122,8 @@
           letter-spacing: .19rem;
           padding-top: .375rem;
           padding-bottom: 1.31rem;
-          color: #ffffff;
-       }
+            text-transform: capitalize;
+   }
 }
 
 .header__date{
@@ -154,6 +150,7 @@
   letter-spacing: .07rem;
   position: relative;
   padding-left: 1.1rem;
+  text-transform: capitalize;
 
   &::before{
     content: "";
@@ -199,7 +196,12 @@
   }
 }
 
+// Serf
 
+.serf{
+  padding: 168px 0 210px;
+
+}
 
 
 
