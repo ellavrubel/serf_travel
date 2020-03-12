@@ -56,7 +56,7 @@
   right: 7.8rem;
 }
 
-.slider-dots{
+.slider-dotshead{
   position: absolute;
   right: 3.125rem;
   bottom: 2.1rem;
@@ -196,10 +196,10 @@
   }
 }
 
-// Serf
+// Surf
 
 .serf{
-  padding: 10.5rem 0 13.125rem;
+  padding: 10.5rem 0 7.5rem;
   background-image: url("../img/serf-bg.svg");
   background-repeat: no-repeat;
   background-position: right 13.75rem;
@@ -220,6 +220,14 @@
     min-height: 46.875rem;
     background-color: rgba( #1C2121, 0.85);
     position: relative;
+    transition: all .5s ease-in-out;
+
+    &:hover{
+    background-color: rgba( #1C2121, 0.3);
+      .serf-box__inner-btn{
+        display: block;
+      }
+    }
   }
 }
 .serf-slider{
@@ -228,34 +236,72 @@
     top: 3.125rem;
     opacity: .25;
   }
+  .slick-slide:nth-child(4n+1){  //n начинается с 0 и далее увеличивается на 1; 4 - количество элементов через кот происходит повторение; 1 - элемент, кот надо изменить
+    .serf-box{
+      margin-top: 2rem;
+    }
+  }
+
+  .slick-slide:nth-child(4n+3){
+    .serf-box{
+      margin-top: 5.625rem;
+    }
+  }
+
+  .slick-current{
+    .serf-box__inner-btn{
+      display: block;
+    }
+    .serf-box__inner{
+      background: rgba(#fff, .3);
+    }
+  }
 }
 
 .serf-box__inner-title{
   font-weight: 800;
   font-size: 2.5rem;
   line-height: 2.25rem;
-  padding: 72px 0 0 40px;
-  max-width: 140px ;
-
+  padding: 4.5rem 0 0 2.5rem;
+  max-width: 8.75rem;
 }
 
 .serf-box__inner-location{
-  font-size: 18px;
-  line-height: 22px;
-  letter-spacing: 8px;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  letter-spacing: .5rem;
+  transform: rotate(-90deg);
+  position: absolute;
+  bottom: 5rem;
+  left: 2.5rem;
+  width: 0;
+  height: 0;
+  white-space: nowrap;
 
 
   span{
     font-weight: 100;
-
   }
-
 }
 
 .serf-box__inner-btn{
-
+  position: absolute;
+  bottom: 0;
+  left: 0; right: 0;
+  text-align: center;
+  display: none;
 }
 
+.slider-map{
+  width: 1200px;
+  height: 635px;
+  background-image: url("../img/map.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+
+}
 
 
 

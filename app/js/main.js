@@ -5,11 +5,11 @@
             fade: true,
             prevArrow: '<img class="slider-arrows slider-arrows-left" src="img/arrows-left.svg">',
             nextArrow: '<img class="slider-arrows slider-arrows-right" src="img/arrows-right.svg">',
-            asNavFor: '.slider-dots'
+            asNavFor: '.slider-dotshead'
 
         });
 
-        $('.slider-dots').slick({
+        $('.slider-dotshead').slick({
             asNavFor: '.header-slider',
             slidesToShow: 4,
             slidesToScroll: 4
@@ -20,11 +20,17 @@
             slidesToShow: 4,
             slidesToScroll: 1,
             prevArrow: '<img class="slider-arrows slider-arrows-left" src="img/arrows-left.svg">',
-            nextArrow: '<img class="slider-arrows slider-arrows-right" src="img/arrows-right.svg">'
+            nextArrow: '<img class="slider-arrows slider-arrows-right" src="img/arrows-right.svg">',
+            asNavFor: '.slider-map'
 
+        });
 
-
-
+        $('.slider-map').slick({
+            slidesToShow: 8,
+            slidesToScroll: 1,
+            arrows: false,
+            asNavFor: '.serf-slider',
+            focusOnSelect: true
         });
 
 

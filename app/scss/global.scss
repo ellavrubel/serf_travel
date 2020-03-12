@@ -88,14 +88,46 @@ ul, li{
 
   &__head{
     font-weight: 800;
-    font-size: 40px;
+    font-size: 2.5rem;
     text-align: right;
-    padding-right: 10px ;
+    padding-right: .625rem;
 
     span{
       font-weight: 100;
     }
+  }
+}
+
+.btn{
+  font-weight: 800;
+  font-size: 2.5rem;
+  line-height: 2.25rem;
 
 
+  span{
+    padding: 1.06rem 3.56rem .9375rem 1.06rem;
+    background-color: #4AF6CD;
+    display: inline-block;
+    margin-left: 1.19rem;
+    position: relative;
+
+    &::before{
+      content: "";
+      width: 1.25rem;
+      height: .0625rem;
+      background-color: #ffffff;
+      position: absolute;
+      top: 50%;
+      left: -.625rem;
+    }
+
+    &::after{
+      content: "";
+      width: 1.56rem;
+      height: 1.31rem;
+      background-image: url("../img/arrows-right.svg");
+      position: absolute;
+      top: 35%; right: 1rem;
+    }
   }
 }
