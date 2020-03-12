@@ -16,6 +16,18 @@
         });
 
 
+        $('.serf-slider').slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            prevArrow: '<img class="slider-arrows slider-arrows-left" src="img/arrows-left.svg">',
+            nextArrow: '<img class="slider-arrows slider-arrows-right" src="img/arrows-right.svg">'
+
+
+
+
+        });
+
+
 
 
 
