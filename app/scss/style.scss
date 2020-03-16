@@ -199,7 +199,6 @@
 // Surf
 
 .serf{
-  padding: 10.5rem 0 7.5rem;
   background-image: url("../img/serf-bg.svg");
   background-repeat: no-repeat;
   background-position: right 13.75rem;
@@ -481,7 +480,36 @@
       right: 81px;
     }
   }
+}
 
+// Travel
+
+.travel{
+  background-image: url("../img/travel-bg.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.travel-slider {
+  &__head {
+    background-repeat: no-repeat;
+    background-position: top left;
+    min-height: 780px;
+  }
+
+  &__descr {
+    padding-left: 135px;
+    min-height: ;
+    img{
+      padding-left: 26px;
+    }
+  }
+
+  &__subtitle {
+    text-align: right;
+    padding: 112px 5rem 0 0;
+
+  }
 }
 
 
