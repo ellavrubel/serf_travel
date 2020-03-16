@@ -33,6 +33,15 @@
             focusOnSelect: true
         });
 
+        $('.travel__slider').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            prevArrow: '<img class="slider-arrows slider-arrows-left" src="img/arrows-left.svg">',
+            nextArrow: '<img class="slider-arrows slider-arrows-right" src="img/arrows-right.svg">',
+            infinity: true,
+            fade: true
+        });
+
 
 
 
