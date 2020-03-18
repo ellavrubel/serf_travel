@@ -611,8 +611,41 @@
   }
 }
 
+// Shop
 
+.shop{
+  background-image: url("../img/shop-bg.png");
+  background-repeat: no-repeat;
+  background-position: center right;
+ }
 
+.shop__slider{
+  padding-left: 132px;
+
+  &-stars{
+    margin-left: -20px;
+  }
+
+  &-price{
+    margin-bottom: 116px;
+  }
+
+  &-info{
+    max-width: 480px;
+    width: 100%;
+    margin-right: 40px;
+  }
+
+  &-inner{
+    display: flex;
+  }
+}
+
+.descr__head-shop{
+  max-width: 340px;
+  line-height: 40px;
+  padding: 8px 0 47px;
+}
 
 
 
