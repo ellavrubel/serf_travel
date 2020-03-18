@@ -42,7 +42,7 @@
             fade: true
         });
 
-        $('<div class="quantity-nav"><div class="quantity-button quantity-up">+</div><div class="quantity-button quantity-down">-</div></div>').insertAfter('.quantity input');
+        $('<div class="quantity-nav"><div class="quantity-button quantity-up"><img src="img/sleep-plus.png" alt=""></div><div class="quantity-button quantity-down"><img src="img/sleep-minus.png" alt=""></div></div>').insertAfter('.quantity input');
         $('.quantity').each(function() {
             var spinner = $(this),
                 input = spinner.find('input[type="number"]'),
