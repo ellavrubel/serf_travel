@@ -542,7 +542,7 @@
 
 .holder-slider__info{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 
   &-subtitle{
     font-size: 18px;
@@ -570,8 +570,8 @@
 
   &-item{
     min-height: 200px;
-    margin-bottom: 66px;
     position: relative;
+    margin-left: -50px;
   }
   .nights-guests{
     letter-spacing: 6px;
@@ -587,6 +587,11 @@
   right: 0;
   top: 46px;
   font-weight: normal;
+
+  &.sleep-span{
+    right: -50px;
+
+  }
 }
 
 

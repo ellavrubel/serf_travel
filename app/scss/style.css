@@ -4167,7 +4167,7 @@ input[type=number] {
 
 .holder-slider__info {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .holder-slider__info-subtitle {
   font-size: 18px;
@@ -4192,8 +4192,8 @@ input[type=number] {
 }
 .holder-slider__info-item {
   min-height: 200px;
-  margin-bottom: 66px;
   position: relative;
+  margin-left: -50px;
 }
 .holder-slider__info .nights-guests {
   letter-spacing: 6px;
@@ -4208,6 +4208,9 @@ input[type=number] {
   right: 0;
   top: 46px;
   font-weight: normal;
+}
+.holder-pricing__span.sleep-span {
+  right: -50px;
 }
 
 .holder__star-list {
