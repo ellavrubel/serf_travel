@@ -4128,6 +4128,9 @@ input[type=number] {
   background-repeat: no-repeat;
   background-position: right bottom;
 }
+.holder.sleep {
+  background-image: url("../img/sleep-flower2.png");
+}
 .holder .slider-arrows {
   top: 225px;
   opacity: 0.25;

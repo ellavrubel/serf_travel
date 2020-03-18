@@ -486,6 +486,12 @@
 
 .holder{
   background-image: url("../img/travel-bg.png");
+
+  &.sleep{
+    background-image: url("../img/sleep-flower2.png");
+
+  }
+
   background-repeat: no-repeat;
   background-position: right bottom;
 
@@ -508,6 +514,8 @@
     min-height: 320px;
     background-repeat: no-repeat;
     background-position: top right;
+
+
     img{
       display: inline-block;
       padding-left: 26px;
