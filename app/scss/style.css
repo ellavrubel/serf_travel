@@ -4245,6 +4245,7 @@ input[type=number] {
   max-width: 480px;
   width: 100%;
   margin-right: 40px;
+  margin-top: 166px;
 }
 .shop__slider-inner {
   display: flex;
@@ -4253,6 +4254,9 @@ input[type=number] {
   padding-left: 170px;
   display: flex;
   align-items: flex-end;
+}
+.shop__slider .slider-arrows {
+  opacity: 0.25;
 }
 
 .descr__head-shop {
@@ -4300,11 +4304,42 @@ input[type=number] {
 .surfboard {
   position: relative;
 }
+
 .surfboard-box {
   position: absolute;
+}
+
+.surfboard__position--1 {
   right: 40px;
   top: 215px;
 }
+
+.surfboard__position--2 {
+  top: 40%;
+  left: 0;
+}
+
+.surfboard__position--3 {
+  bottom: 10%;
+  left: 50px;
+}
+.surfboard__position--3 .surfboard-box__content {
+  padding-left: 0;
+  padding-right: 124px;
+  top: -15px;
+  left: -400px;
+}
+.surfboard__position--3 .surfboard-box__content::before {
+  content: "";
+  position: absolute;
+  left: auto;
+  right: 30px;
+  top: 50%;
+  width: 5rem;
+  height: 0.0625rem;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
 .surfboard-box__circle {
   width: 20px;
   height: 20px;
@@ -4320,6 +4355,7 @@ input[type=number] {
 .circle-row {
   background-color: #4AF6CD;
   position: absolute;
+  z-index: 10;
   width: 12px;
   height: 2px;
   top: 50%;
@@ -4330,7 +4366,12 @@ input[type=number] {
   transform: translate(-50%, -50%) rotate(90deg);
 }
 
+.surfboard-box__circle.active + .surfboard-box__content {
+  display: block;
+}
+
 .surfboard-box__content {
+  display: none;
   position: absolute;
   top: -15px;
   left: 0;
@@ -4348,6 +4389,25 @@ input[type=number] {
   width: 5rem;
   height: 0.0625rem;
   background-color: rgba(255, 255, 255, 0.5);
+}
+
+.footer {
+  padding-top: 284px;
+  text-align: center;
+}
+.footer .btn span {
+  padding: 17px 17px 15px;
+}
+.footer .btn span::after {
+  display: none;
+}
+.footer__copy {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 1.05px;
+  opacity: 0.5;
+  padding-top: 27px;
 }
 
 /*# sourceMappingURL=style.css.map */
