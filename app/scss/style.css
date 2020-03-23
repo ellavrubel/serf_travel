@@ -4683,6 +4683,47 @@ input[type=number] {
     display: none;
   }
 }
+@media (max-width: 932px) {
+  .slider-map {
+    background-image: none;
+    max-width: 100%;
+    min-height: 280px;
+  }
+  .slider-map .slick-current .slider-dots__content {
+    background-color: rgba(170, 170, 170, 0.3);
+  }
+
+  .slider-dots__circle {
+    display: none;
+  }
+
+  .slider-dots__content,
+.slider-dots--8 .slider-dots__content {
+    display: block;
+    transform: translateX(0);
+  }
+  .slider-dots__content::before,
+.slider-dots--8 .slider-dots__content::before {
+    display: none;
+  }
+
+  .slider-dots {
+    position: static;
+  }
+
+  .slider-map .slick-list {
+    overflow: hidden;
+    min-height: 280px;
+  }
+
+  .headline-left::before {
+    left: 15%;
+  }
+
+  .slick-track {
+    min-height: 280px;
+  }
+}
 @media (max-width: 645px) {
   .header__aside {
     display: block;

@@ -12,7 +12,13 @@
         $('.slider-dotshead').slick({
             asNavFor: '.header-slider',
             slidesToShow: 4,
-            slidesToScroll: 4
+            slidesToScroll: 4,
+            responsive: [
+                {
+                    breakpoint: 1000,
+                    settings: "unslick"
+                }
+             ]
         });
 
 
@@ -38,7 +44,15 @@
             slidesToScroll: 1,
             arrows: false,
             asNavFor: '.serf-slider',
-            focusOnSelect: true
+            focusOnSelect: true,
+            responsive: [
+                {
+                    breakpoint: 932,
+                    settings: {
+                        slidesToShow: 3
+                    }
+                }
+            ]
         });
 
         $('.holder__slider').slick({
