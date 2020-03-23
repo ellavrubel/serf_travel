@@ -240,9 +240,11 @@
 }
 
 .serf-box{
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  &__wrapper {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 
   &__inner{
     min-height: 46.875rem;
@@ -330,6 +332,7 @@
   margin: 0 auto;
   .slick-list{
     min-height: 635px;
+    overflow: visible;
   }
   .slick-current{
 
@@ -401,6 +404,7 @@
   height: 1.5rem;
   background-color: #4AF6CD;
   border-radius: 50%;
+  box-shadow: 0 0 35px rgba(74, 246, 205, 0.837777);
 
 }
 
@@ -431,7 +435,6 @@
 
 .slider-dots{
   position: relative;
-
 }
 .slider-dots--1{
   top: 350px;
