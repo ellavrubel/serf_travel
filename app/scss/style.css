@@ -4609,6 +4609,94 @@ input[type=number] {
   .serf {
     padding: 5.5rem 0 7.5rem;
   }
+
+  .holder-slider .descr {
+    padding: 80px 0 0 49px;
+  }
+
+  .holder {
+    padding: 0 0 10rem;
+  }
+  .holder .title span {
+    font-size: 10rem;
+  }
+
+  .holder-slider__subtitle {
+    padding: 25px 5rem 0 0;
+  }
+
+  .holder-slider__descr {
+    min-height: 281px;
+  }
+
+  .holder-slider__btn {
+    margin-top: 70px;
+  }
+}
+@media (max-width: 1100px) {
+  .holder .title span {
+    font-size: 7rem;
+  }
+
+  .serf {
+    padding: 5.5rem 0 0.5rem;
+  }
+
+  .holder {
+    padding: 0;
+  }
+
+  .holder-slider__info {
+    display: block;
+    margin-left: 60px;
+  }
+
+  .holder-slider__info-subtitle {
+    position: static;
+    transform: rotate(0);
+    height: auto;
+    text-align: left;
+  }
+
+  .holder-slider__info-title {
+    font-size: 26px;
+    padding-left: 0;
+  }
+
+  .holder-slider__info-item {
+    min-height: 100px;
+    margin: 20px 0;
+  }
+
+  .holder-slider__descr {
+    min-height: 226px;
+    background-image: none;
+  }
+
+  .holder-slider .descr {
+    margin-top: 130px;
+  }
+
+  .descr__head {
+    line-height: 67px;
+  }
+
+  .headline-right {
+    line-height: 0;
+    letter-spacing: 0.2rem;
+  }
+
+  .holder-pricing__span {
+    position: static;
+  }
+
+  .holder-slider__btn {
+    margin-top: -3px;
+  }
+
+  .holder-pricing__span {
+    font-size: 11px;
+  }
 }
 @media (max-width: 1050px) and (min-width: 1000px) {
   .header__arrows {
@@ -4729,6 +4817,22 @@ input[type=number] {
 
   .slick-track {
     min-height: 280px;
+  }
+}
+@media (max-width: 778px) {
+  .holder {
+    padding-top: 4rem;
+  }
+  .holder .title h3 {
+    font-size: 4rem;
+  }
+
+  .holder-slider__subtitle {
+    padding: 25px 20px 0 0;
+  }
+
+  .headline-left__travel {
+    font-size: 1rem;
   }
 }
 @media (max-width: 768px) {
