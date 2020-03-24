@@ -34,9 +34,27 @@
                     settings: {
                         slidesToShow: 3
                     }
+                },
+                {
+                    breakpoint: 778,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 720,
+                    settings: {
+                        slidesToShow: 1,
+                        centerMode: true
+                    }
+                },
+                {
+                    breakpoint: 460,
+                    settings: {
+                        slidesToShow: 1,
+                    }
                 }
             ]
-
         });
 
         $('.slider-map').slick({
@@ -49,7 +67,28 @@
                 {
                     breakpoint: 932,
                     settings: {
-                        slidesToShow: 3
+                        slidesToShow: 3,
+                        centerMode: true
+                    }
+                },
+                {
+                    breakpoint: 778,
+                    settings: {
+                        slidesToShow: 2,
+                        centerMode: true
+                    }
+                },
+                {
+                    breakpoint: 720,
+                    settings: {
+                        slidesToShow: 1,
+                        centerMode: true
+                    }
+                },
+                {
+                    breakpoint: 390,
+                    settings: {
+                        slidesToShow: 1
                     }
                 }
             ]

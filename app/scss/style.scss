@@ -240,13 +240,7 @@
 }
 
 .serf-box{
-  &__wrapper {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  &__inner{
+    &__inner{
     min-height: 46.875rem;
     background-color: rgba( #1C2121, 0.85);
     position: relative;
@@ -260,6 +254,13 @@
     }
   }
 }
+
+.serf-box__wrapper {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
 .serf-slider{
   padding-top: 6.875rem;
   .slider-arrows{

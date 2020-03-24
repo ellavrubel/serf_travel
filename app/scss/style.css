@@ -3901,11 +3901,6 @@ input[type=number] {
   margin-top: -5.375rem;
 }
 
-.serf-box__wrapper {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
 .serf-box__inner {
   min-height: 46.875rem;
   background-color: rgba(28, 33, 33, 0.85);
@@ -3917,6 +3912,12 @@ input[type=number] {
 }
 .serf-box__inner:hover .serf-box__inner-btn {
   display: block;
+}
+
+.serf-box__wrapper {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .serf-slider {
@@ -4673,6 +4674,7 @@ input[type=number] {
     font-size: 0.8rem;
     line-height: 0.5rem;
     letter-spacing: 0.3rem;
+    padding-left: 7.45rem;
   }
   .headline-left::before {
     left: 20%;
@@ -4681,6 +4683,10 @@ input[type=number] {
 
   .slider-dotshead {
     display: none;
+  }
+
+  .serf-subtitle {
+    padding-right: 20px;
   }
 }
 @media (max-width: 932px) {
@@ -4691,6 +4697,7 @@ input[type=number] {
   }
   .slider-map .slick-current .slider-dots__content {
     background-color: rgba(170, 170, 170, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.3);
   }
 
   .slider-dots__circle {
@@ -4722,6 +4729,16 @@ input[type=number] {
 
   .slick-track {
     min-height: 280px;
+  }
+}
+@media (max-width: 768px) {
+  .slider-dots__content {
+    width: 230px;
+  }
+
+  .title span {
+    font-size: 7.5rem;
+    padding-bottom: 3rem;
   }
 }
 @media (max-width: 645px) {
@@ -4764,6 +4781,24 @@ input[type=number] {
     right: 10px;
   }
 }
+@media (max-width: 520px) {
+  .headline-left {
+    letter-spacing: 0.2rem;
+  }
+
+  .subtitle__head {
+    font-size: 2rem;
+    padding-right: 0.125rem;
+  }
+
+  .title h3 {
+    font-size: 3.5rem;
+  }
+
+  .serf {
+    padding: 3.5rem 0 7.5rem;
+  }
+}
 @media (max-width: 459px) and (min-width: 320px) {
   .header__title {
     display: none;
@@ -4800,6 +4835,24 @@ input[type=number] {
   }
   .header__slider .slider-arrows-right {
     right: 0.5rem;
+  }
+
+  .serf-slider .slider-arrows {
+    top: 0;
+  }
+
+  .serf-slider {
+    padding-top: 2rem;
+  }
+
+  .title span {
+    font-size: 4.5rem;
+    padding-bottom: 5rem;
+    margin-left: 3rem;
+  }
+
+  .serf {
+    padding: 1.5rem 0 7.5rem;
   }
 }
 
