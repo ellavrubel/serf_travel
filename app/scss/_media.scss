@@ -498,7 +498,7 @@
 
 @media (max-width: 580px){
   .holder-slider__descr{
-    background-image: none;!important;
+    background-image: none;
   }
 }
 
@@ -535,17 +535,13 @@
   .holder-slider__btn {
     text-align: right;
   }
-  .quantity-button.quantity-up {
-    top: 62px;
-    left: 0;
-  }
-  .quantity-button.quantity-down {
-    top: 67px;
-    left: 36px;
-  }
+
   .holder-slider__info .nights-guests {
     letter-spacing: 3px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
+  }
+  .holder-slider__info {
+    margin-left: 51px;
   }
 }
 
