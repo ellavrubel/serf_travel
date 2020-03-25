@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -4173,6 +4174,7 @@ input[type=number] {
 .holder-slider__descr {
   margin-top: -170px;
   min-height: 320px;
+  background-image: url("../img/airplane-bg.png");
   background-repeat: no-repeat;
   background-position: top right;
 }
@@ -4670,7 +4672,6 @@ input[type=number] {
 
   .holder-slider__descr {
     min-height: 226px;
-    background-image: none;
   }
 
   .holder-slider .descr {
@@ -4683,7 +4684,6 @@ input[type=number] {
 
   .headline-right {
     line-height: 0;
-    letter-spacing: 0.2rem;
   }
 
   .holder-pricing__span {
@@ -4844,6 +4844,50 @@ input[type=number] {
     font-size: 7.5rem;
     padding-bottom: 3rem;
   }
+
+  .holder-slider__descr {
+    background-image: none;
+  }
+
+  .title .span__travel {
+    padding-bottom: 0;
+  }
+
+  .holder-slider .descr {
+    margin-top: -120px;
+    padding-top: 0;
+  }
+
+  .holder-slider__info {
+    margin-top: -153px;
+  }
+
+  .headline-right {
+    font-size: 1rem;
+  }
+
+  .holder-slider__info-subtitle {
+    font-size: 1rem;
+  }
+
+  .travel__hours br {
+    content: "";
+  }
+  .travel__hours br::after {
+    content: " ";
+  }
+
+  .holder-slider__info-title {
+    max-width: none;
+  }
+
+  .holder-slider__info-item {
+    margin: 0;
+  }
+
+  .holder .slider-arrows {
+    top: 112px;
+  }
 }
 @media (max-width: 645px) {
   .header__aside {
@@ -4895,12 +4939,36 @@ input[type=number] {
     padding-right: 0.125rem;
   }
 
-  .title h3 {
+  .title h3, .title .span__travel h3 {
     font-size: 3.5rem;
   }
 
   .serf {
-    padding: 3.5rem 0 7.5rem;
+    padding: 3.5rem 0 2.5rem;
+  }
+
+  .holder-slider__subtitle {
+    padding: 0 20px 0 0;
+  }
+
+  .holder {
+    background-image: none;
+  }
+
+  .holder .slider-arrows {
+    top: 85px;
+  }
+
+  .holder-slider__info-item {
+    min-height: 78px;
+  }
+
+  .holder-slider__head {
+    min-height: 725px;
+  }
+
+  .holder-slider__btn {
+    text-align: right;
   }
 }
 @media (max-width: 459px) and (min-width: 320px) {
