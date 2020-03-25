@@ -5015,6 +5015,10 @@ input[type=number] {
     margin-bottom: 1rem;
   }
 
+  .holder-slider__info-subtitle {
+    letter-spacing: 8px;
+  }
+
   .slider-item_info-text {
     line-height: 1rem;
     font-size: 1.15rem;
@@ -5090,6 +5094,18 @@ input[type=number] {
 
   .descr__head {
     font-size: 1.3rem;
+  }
+  .descr__head img {
+    padding-left: 10px;
+    height: 40px;
+  }
+
+  .holder-slider__info-title {
+    font-size: 19px;
+  }
+
+  .holder-pricing__span {
+    letter-spacing: 2.25px;
   }
 }
 
