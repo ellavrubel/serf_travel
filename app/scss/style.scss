@@ -534,7 +534,12 @@
 
   }
 }
+.holder-slider__descr{
+  background-image: url("../img/airplane-bg.png");
+  background-repeat: no-repeat;
+  background-position: top right;
 
+}
 .holder-slider {
   &__head {
     background-repeat: no-repeat;
@@ -545,9 +550,7 @@
   &__descr {
     margin-top: -170px;
     min-height: 320px;
-    background-image: url("../img/airplane-bg.png");
-    background-repeat: no-repeat;
-    background-position: top right;
+
 
 
     img{
@@ -631,23 +634,21 @@
 
 // Sleep
 
-.holder__star-list{
+.holder__star-list {
   position: absolute;
   top: 12px;
   right: -180px;
 
-  li{
-      display: inline-block;
-    img{
+  li {
+    display: inline-block;
+
+    img {
       padding-left: 0;
       margin-right: -25px;
     }
   }
-  .holder-slider__descr-sleep{
-    background-image: url("../img/sleep-flower_hamm.png");
-    background-size: contain;
   }
-}
+
 
 // Shop
 

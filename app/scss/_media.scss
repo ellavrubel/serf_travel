@@ -87,6 +87,9 @@
   .header__arrows {
     left: 3.125rem;
   }
+  .shop__slider-content {
+    padding-left: 40px;
+  }
 }
 
 @media (max-width: 1340px) {
@@ -107,6 +110,18 @@
       &-right {
         right: 2.5rem;
       }
+    }
+  }
+}
+
+@media (max-width: 1302px){
+  .surfboard__position--3 .surfboard-box__content {
+    padding-right: 0;
+    left: 68px;
+
+    &::before{
+      right: 262px;
+      width: 2rem;
     }
   }
 }
@@ -185,6 +200,10 @@
   .holder-slider__btn {
     margin-top: 70px;
   }
+}
+
+@media (max-width: 1220px){
+
 }
 
 @media (max-width: 1100px) {

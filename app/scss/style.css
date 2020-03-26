@@ -4166,6 +4166,12 @@ input[type=number] {
   opacity: 0.25;
 }
 
+.holder-slider__descr {
+  background-image: url("../img/airplane-bg.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
 .holder-slider__head {
   background-repeat: no-repeat;
   background-position: top left;
@@ -4174,9 +4180,6 @@ input[type=number] {
 .holder-slider__descr {
   margin-top: -170px;
   min-height: 320px;
-  background-image: url("../img/airplane-bg.png");
-  background-repeat: no-repeat;
-  background-position: top right;
 }
 .holder-slider__descr img {
   display: inline-block;
@@ -4255,10 +4258,6 @@ input[type=number] {
 .holder__star-list li img {
   padding-left: 0;
   margin-right: -25px;
-}
-.holder__star-list .holder-slider__descr-sleep {
-  background-image: url("../img/sleep-flower_hamm.png");
-  background-size: contain;
 }
 
 .shop {
@@ -4536,6 +4535,10 @@ input[type=number] {
   .header__arrows {
     left: 3.125rem;
   }
+
+  .shop__slider-content {
+    padding-left: 40px;
+  }
 }
 @media (max-width: 1340px) {
   .header__map svg {
@@ -4551,6 +4554,16 @@ input[type=number] {
   }
   .header__slider .slider-arrows-right {
     right: 2.5rem;
+  }
+}
+@media (max-width: 1302px) {
+  .surfboard__position--3 .surfboard-box__content {
+    padding-right: 0;
+    left: 68px;
+  }
+  .surfboard__position--3 .surfboard-box__content::before {
+    right: 262px;
+    width: 2rem;
   }
 }
 @media (max-width: 1250px) {
