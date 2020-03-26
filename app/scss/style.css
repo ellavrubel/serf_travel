@@ -5003,6 +5003,19 @@ input[type=number] {
     margin-left: 51px;
   }
 }
+@media (max-width: 472px) {
+  .holder-slider .holder-slider__descr-sleep .descr-sleep {
+    padding: 20px 0 0 50px;
+  }
+
+  .sleep .holder-slider__info-subtitle {
+    letter-spacing: 6px;
+  }
+
+  .holder.sleep {
+    background-image: none;
+  }
+}
 @media (max-width: 468px) {
   .descr__head {
     font-size: 1.8rem;
@@ -5028,6 +5041,14 @@ input[type=number] {
   .holder-slider .descr {
     margin-top: 178px;
     padding-left: 59px;
+  }
+
+  .holder__star-list {
+    top: -3px;
+    right: -30px;
+  }
+  .holder__star-list li img {
+    margin-right: -20px;
   }
 }
 @media (max-width: 459px) and (min-width: 320px) {
@@ -5138,6 +5159,14 @@ input[type=number] {
 
   .holder-pricing__span {
     letter-spacing: 2.25px;
+  }
+
+  .holder.sleep {
+    padding-top: 40px;
+  }
+
+  .quantity input {
+    font-size: 32px;
   }
 }
 
