@@ -822,6 +822,12 @@
       }
     }
   }
+  .serf {
+    padding: 1.5rem 0 0;
+  }
+  .serf-subtitle {
+    margin-top: -3.375rem;
+  }
 
   .serf-slider {
     .slider-arrows {
@@ -880,6 +886,11 @@
   }
   .holder-slider .descr {
     padding-left: 10px;
+    min-height: 185px;
+    margin-top: 22px;
+  }
+  .holder-slider__descr {
+    min-height: 190px;
   }
 
   .descr__head {
@@ -896,9 +907,13 @@
     letter-spacing: 2.25px;
   }
   .holder{
+      padding: 0 0 60px;
     &.sleep{
       padding-top: 0;
     }
+  }
+  .holder-slider .holder-slider__descr-sleep .descr-sleep {
+    padding: 0 0 0 50px;
   }
   .quantity input {
     font-size: 32px;
