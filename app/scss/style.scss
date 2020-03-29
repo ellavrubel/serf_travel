@@ -418,7 +418,7 @@
   position: absolute;
   bottom: 35px;
   transform: translateX(-60%);
-  z-index: 1;
+  //z-index: 1;
 
   &::before{
     content: "";
@@ -551,8 +551,7 @@
   &__descr {
     margin-top: -170px;
     min-height: 320px;
-
-
+    margin-bottom: 50px;
 
     img{
       display: inline-block;
@@ -570,11 +569,12 @@
 
   &__subtitle {
     text-align: right;
-    padding: 112px 5rem 0 0;
+    padding: 0 5rem 0 0;
   }
 
   &__btn{
     text-align: center;
+    padding-top: 100px;
   }
 }
 
